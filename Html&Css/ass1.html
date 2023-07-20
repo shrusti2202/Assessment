@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="png-clipart-goods-and-services-tax-india-business-consultant-india-angle-text.png">
+</head>
+<body>
+    <h4 align="center">Student Registration Form</h4>
+    <form action="">
+    <div class="main">
+        <div class="lable" id="first">
+            <div class="left">First Name:</div>
+            <div>
+                <input type="text" id="name" name="name" class="right" min="3" max="6" pattern="[A-Za-z]{3,6}" placeholder="Enter Your first name" required>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Last Name:</div>
+            <div>
+                <input type="text" id="name" name="name"class="right" placeholder="Enter Your last name" required>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Email:</div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="It should contain @." required>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Mobile:</div>
+            <div>
+                <input type="number" id="mobileno" name="mobileno" pattern="[0-9]{10}" placeholder="Only 10 digits are allowed" required>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Gender:</div>
+            <div id="gender">
+                <input type="radio" name="xyz" id="abc" required>
+                <label for="abc">Male</label>
+                <input type="radio" name="xyz" id="pqr" required>
+                <label for="pqr">Female</label>
+            </div>
+        </div>
+         <div class="lable">
+            <div class="left">Date Of Birth:</div>
+            <div>
+                <input type="date" name="" id="DOB" required>
+            </div>
+        </div>
+         <div class="lable">
+            <div class="left">Address:</div>
+            <div>
+                <textarea name="" id="Add" cols="30" rows="10" required></textarea>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">City:</div>
+            <div>
+                <input type="text" name="city" id="city" required>
+            </div>
+        </div>
+         <div class="lable">
+            <div class="left">Area PIN:</div>
+            <div>
+                <input type="text" name="pin" id="pin" required>
+            </div>
+        </div>
+         <div class="lable">
+            <div class="left">State:</div>
+            <div>
+                <input type="text" name="state" id="state" required>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Qualification:</div>
+            <div>
+                <select name="" id="Qua" required>
+                        <option value="">Select Qualification</option>
+                        <option value="">BBA</option>
+                        <option value="">MBA</option>
+                </select>
+            </div>
+        </div>
+        <div class="lable">
+            <div class="left">Specialization:</div>
+            <div id="spe">
+            <div>
+                <input type="checkbox" name="xyz" id="abe">
+                <label for="abe">Computer Science</label>
+            </div>
+            <div>
+                <input type="checkbox" name="xyz" id="pql">
+                <label for="pql">Information Technology</label>
+            </div>
+            <div>
+                <input type="checkbox" name="xyz" id="abf">
+                <label for="abf">Computer Architecture</label>
+            </div>
+            <div>
+                <input type="checkbox" name="xyz" id="pqz">
+                <label for="pqz">Tele Communication</label>
+            </div>
+        </div>
+        </div>
+        <div class="lable">
+            <div class="left" id="pwdlab">Password:</div>
+            <div>
+                <input type="text" name="pwd" id="pwd" required>
+            </div>
+        </div>
+        <div class="btn">
+            <button>Registered</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

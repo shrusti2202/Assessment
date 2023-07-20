@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: rgb(188, 188, 179);
+    margin-top: 30px;
+    height: 650px;
+}
+
+.lable {
+    display: flex;
+}
+
+.left {
+    float: left;
+    margin: 0px 0px 12px 12px;
+}
+
+.right {
+    margin-left: 70px;
+    width: 500px;
+    height: 20px;
+}
+
+#first {
+    padding-top: 20px;
+}
+
+#email {
+    margin-left: 101px;
+    width: 502px;
+    height: 20px;
+}
+
+#mobileno {
+    margin-left: 92px;
+    width: 502px;
+    height: 20px;
+}
+
+#gender {
+    margin-left: 90px;
+    width: 502px;
+    height: 20px;
+}
+
+#DOB {
+    margin-left: 50px;
+    width: 502px;
+    height: 20px;
+}
+
+#Add {
+    margin-left: 84px;
+    width: 505px;
+}
+
+#city {
+    margin-left: 109px;
+    width: 502px;
+    height: 20px;
+}
+
+#pin {
+    margin-left: 76px;
+    width: 502px;
+    height: 20px;
+}
+
+#state {
+    margin-left: 104px;
+    width: 502px;
+    height: 20px;
+}
+
+#Qua {
+    margin-left: 52px;
+    height: 20px;
+}
+
+#spe {
+    margin-left: 47px;
+    height: 20px;
+}
+
+#pwd {
+    margin: 50px 0px 0px 75px;
+    height: 20px;
+    width: 500px;
+}
+
+#pwdlab {
+    margin-top: 50px;
+}
+
+.btn {
+    margin-left: 12px;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    background-color: rgb(76, 108, 28);
+    color: white;
+    border: none;
+}

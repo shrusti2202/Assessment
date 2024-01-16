@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>assesment</title>
+</head>
+
+<body>
+
+  <script>
+
+    //  1. =======	Write a function that takes an array of numbers as argument======
+
+
+    function paramaters(abc) {
+      const xyz = Array.from(new Set(abc));
+      const result = {};
+
+      xyz.forEach(xyz => {
+        result[xyz] = xyz;
+      });
+
+      return result;
+    }
+
+
+    const abc = ['apple', 'banana', 'orange', 'banana', 'grape'];
+    const mo = paramaters(abc);
+    console.log(mo);
+
+
+
+    // 2.=====It should have a key for each unique value of the array====
+
+
+
+
+    function processNumbers(numbers) {
+      const result = numbers.reduce((sum, num) => sum + num, 0);
+
+
+      return result;
+    }
+
+
+    const numbersArray = [1, 2, 3, 4, 5];
+    const result3 = processNumbers(numbersArray);
+    console.log(`The result is: ${result3}`);
+
+
+
+
+    //3. ======	 Convert the array to an object======
+
+
+
+
+
+
+
+
+
+
+
+    //4. ======The corresponding object value should be the number of times the key occurs within the array====
+
+
+
+
+    function countOccurrences(arr) {
+      let occurrences = {};
+
+      arr.forEach(element => {
+        occurrences[element] = (occurrences[element] || 0) + 1;
+      });
+
+      return occurrences;
+    }
+
+
+    let myArray = [1, 2, 2, 3];
+    let myArray1 = [9, 9, 9, 99];
+    let myArray2 = [4, 3, 2, 1];
+
+    let result = countOccurrences(myArray);
+    let result1 = countOccurrences(myArray1);
+    let result2 = countOccurrences(myArray2);
+    console.log(result);
+    console.log(result1);
+    console.log(result2);
+
+  </script>
+</body>
+
+</html>
